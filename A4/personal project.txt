@@ -1,0 +1,2 @@
+For the personal project i had the idea to do a portfolio website
+it would have links to past projects i have done from my github repositories
