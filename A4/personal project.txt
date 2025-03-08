@@ -12,3 +12,7 @@ For now I expect to use Javascript, CSS, HTML, and Python as the languages that 
 
 Challenge:
 A challenge will be to implement a changelog that chronicles the changes to the site over time.
+
+parts = movieName.split(" ")
+for parts in parts:
+    movieName.append(movieName)
