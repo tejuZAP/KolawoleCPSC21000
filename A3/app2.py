@@ -1,5 +1,5 @@
 '''
-Algorithm for a program that will ask the user to enter numbers and then will report the mean of those numbers"
+3Algorithm for a program that will ask the user to enter numbers and then will report the mean of those numbers"
 '''
 
 def calculate_mean(numbers):
