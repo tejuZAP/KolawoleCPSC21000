@@ -4,10 +4,12 @@ movieName = {}
 rating = {}
 
 def addMovie(movieName) :
+    #Asks for the users to add a movie title and adds it into the list called movieName
     title = input("Enter movie name: ")
     movieName[title] = []
     
 def addRating(movieName, rating) :
+    #Has the users select a movie in the list and assign a rating to it that is stored into the dictionary called rating
     movieName = input("Select a movie to rate: ")
     if movieName in movieName:
         while True:
@@ -23,10 +25,12 @@ def addRating(movieName, rating) :
                 print(f"Movie is not in the manager")
 
 def generateRandomRating(movieName) :
+    #Adds a random rating to the movies in the list that gets stored to the dictionary
     for title in movieName:
         movieName[title].append(random.randint(1, 5))
 
 def displayMovieRatings() :
+    #Takes the ratings stored in the dictionary and averages out the ratings added by the user and created by the random generator. The movie with the ratings get printed out
     for title, ratings in movieName.items():
         average_rating = round(sum(ratings) / len(ratings), 1)
         print(f"{title}: {average_rating} stars")
