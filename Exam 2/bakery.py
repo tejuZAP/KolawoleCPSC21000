@@ -53,3 +53,15 @@ while not is_sold_out(inventory) and line:
 
 #display a summar of the orders    
 display_summary(orders, inventory)
+
+'''
+Results-
+Order Summary:
+Alice - Chocolate Cake
+George - Apple Pie
+Randy - Muffin
+Emma - Donut
+Elaine - Croissant
+
+All items are sold out!
+'''
