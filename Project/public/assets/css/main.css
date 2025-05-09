@@ -281,6 +281,8 @@ div.title{
     left: 600px;
 }
 
+table.outset {border-style: outset;}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
     width: 1rem;
